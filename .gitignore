@@ -1,0 +1,14 @@
+./src/.env
+
+# cache
+*/__pycache__
+/res
+
+# venv
+pyvenv.cfg
+/lib
+/include
+/bin
+
+# pipreqs
+/share
