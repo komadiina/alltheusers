@@ -46,7 +46,7 @@ python main.py
 ```
 
 ## Notes
-- Don't be a dick and set a small request interval, the platform is already on toothpicks as is.
+- Don't be a dick by setting a small request interval, the platform is already on toothpicks as is.
 - The app provides a serialization mechanism on a received SIGINT signal, so you can safely exit the app whenever.  
   - The files are serialized within the `./saved/` directory, in JSON format.
 
