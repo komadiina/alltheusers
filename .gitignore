@@ -1,4 +1,5 @@
 src/.env
+saved/*
 
 # cache
 */__pycache__

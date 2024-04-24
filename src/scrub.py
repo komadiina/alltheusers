@@ -34,7 +34,7 @@ def scrub(session: requests.Session, start_id: int = 0, user_limit: int = 99_999
     print(f"GET: {reqUrl}, STATUS: {response.status_code}")
     
     if response.status_code == 200:
-      if response.text.find("Ovaj korisnički nalog je obrisan") != -1 || response.text.find("Neispravan korisnik") != -1:
+      if response.text.find("Ovaj korisnički nalog je obrisan") != -1 or response.text.find("Neispravan korisnik") != -1:
         continue
       else:
         print(f"User found: {id}")
